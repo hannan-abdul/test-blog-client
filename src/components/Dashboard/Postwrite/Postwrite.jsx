@@ -25,7 +25,7 @@ const Postwrite = () => {
     try {
       const res = await axios({
         method: 'post',
-        url: `http://localhost:5500/api/news/addnews`,
+        url: `https://fast-shore-46060.herokuapp.com/api/news/addnews`,
         data: newsData
       })
       // swal("Successfully Added", "Your news has been successfully added!", "success");
