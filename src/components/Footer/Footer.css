@@ -1,0 +1,8 @@
+.footer-area{
+    background-color: #1F7491;
+}
+.footer-area ul li{
+    list-style: none;
+    color: #fff;
+    padding: 10px;
+}

@@ -1,0 +1,15 @@
+.slider-section{
+    background-image: url(../../resource/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3333338c;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    height: 40vh;
+}
+.feature-content{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 80px;
+}
