@@ -4,3 +4,35 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+.paginationBttns {
+    width: 80%;
+    height: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 5px 10px;
+    margin: 8px;
+    border: 1px solid #0775a1;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #0775a1;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #0775a1;
+  }
+  
+  .paginationDisabled a {
+    color: #fff;
+    text-decoration: none;
+    background-color: grey;
+  }

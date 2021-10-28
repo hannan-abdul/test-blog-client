@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router';
+import { useHistory, useLocation } from 'react-router';
 import './Login.css';
 import { useDispatch } from "react-redux";
 import { customAuthAction } from '../../redux/action/authAction';
@@ -32,13 +32,6 @@ const Login = () => {
         <div className="login">
             <span className="loginTitle">Login</span>
             <form className="loginForm" onSubmit={handleSubmit}>
-                {/* <label>Name</label>
-                <input
-                    type="text"
-                    className="loginInput"
-                    placeholder="Name"
-                    onChange={(e) => setName(e.target.value)}
-                /> */}
                 <label>Email</label>
                 <input
                     type="email"

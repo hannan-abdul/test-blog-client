@@ -8,6 +8,7 @@ const Home = () => {
         <div>
             <Slider/>
             <MainBody/>
+            <Footer/>
         </div>
     );
 };

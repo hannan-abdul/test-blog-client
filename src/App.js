@@ -11,7 +11,6 @@ import Postwrite from './components/Dashboard/Postwrite/Postwrite';
 import Navbar from './components/Navbar/Navbar';
 import ManageNews from './components/Dashboard/ManageNews/ManageNews';
 import SingleNewsDetail from './components/MainBody/SingleNewsDetail/SingleNewsDetail';
-import Footer from './components/Footer/Footer';
 import PrivateRoute from './pages/Login/PrivateRoute';
 
 function App() {
@@ -39,7 +38,6 @@ function App() {
             <SingleNewsDetail/>
           </Route>
         </Switch>
-        <Footer/>
       </Router>
     </div>
   );

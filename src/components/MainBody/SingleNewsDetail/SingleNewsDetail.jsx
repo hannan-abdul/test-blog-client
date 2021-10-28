@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import Footer from '../../Footer/Footer';
 import Sidebar from '../Body/Sidebar/Sidebar';
 import NewsDetailComponent from '../NewsDetailComponent/NewsDetailComponent';
 
@@ -22,13 +23,16 @@ const SingleNewsDetail = () => {
     }, [newsId])
 
     return (
-        <div className="container d-flex">
-            <div className="col-9">
-                <NewsDetailComponent newdata={newdata}></NewsDetailComponent>
+        <div>
+            <div className="container d-flex">
+                <div className="col-9">
+                    <NewsDetailComponent newdata={newdata}></NewsDetailComponent>
+                </div>
+                <div className="col-3">
+                    <Sidebar />
+                </div>
             </div>
-            <div className="col-3">
-                <Sidebar />
-            </div>
+            <Footer/>
         </div>
     );
 };

@@ -53,7 +53,7 @@ const Postwrite = () => {
       });
   }
   return (
-    <section>
+    <section className="mb-20">
       <div>
         <DashboardMenu />
       </div>
