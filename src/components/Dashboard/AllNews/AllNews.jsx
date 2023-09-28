@@ -9,7 +9,7 @@ const AllNews = ({ newdata }) => {
 
     const deleteNews = async () => {
         try {
-            await axios.delete(`https://fast-shore-46060.herokuapp.com/api/news/${_id}`,{
+            await axios.delete(`https://test-blog-api.vercel.app/api/news/${_id}`,{
                 data: {email: email}
             });
             window.location.replace("/manage-news");
